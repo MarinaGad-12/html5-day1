@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>audio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Marina Audio</h1>
+        <aside id="multAudio">
+            <audio src="1.mp3"></audio><h3>Song 1</h3>
+            <audio src="2.mp3"></audio><h3>Song 2</h3>
+            <audio src="3.mp3"></audio><h3>Song 3</h3>
+            <audio src="4.mp3"></audio><h3>Song 4</h3>
+        </aside>
+        <div id="mainAudio">
+            <img src="1.jpg" id="myImg">
+            <audio src="1.mp3" id="main"></audio>
+            <div id="controls">
+                <input type="range" value="0" min="0" max="100" id="se" />
+                <br>
+                <button id="sp"><i class="fas fa-play"></i></button>
+                <button id="pu"><i class='fas fa-pause'></i></button>
+                <button id="st"><i class="fas fa-stop"></i></button>
+                <span class="v">Volume:</span>
+                <input type="range" min="0" max="100" id="vol" />
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+</body>
